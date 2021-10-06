@@ -13,8 +13,6 @@ This is not intended to be used as a standalone app, this is dependency app for 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-![Screen Shot](https://user-images.githubusercontent.com/50715158/136180273-5d433e8d-e672-4f8c-836b-acfc49ba6772.png)
-
 ## Configuration
 
 There're 2 ways of using this list:  
@@ -37,6 +35,8 @@ There're 2 ways of using this list:
   },
 }
 ```
+
+![Screen Shot](https://user-images.githubusercontent.com/50715158/136213426-ccd08125-be97-48eb-b957-77e0ec685927.png)
 
 OR
 
@@ -73,6 +73,8 @@ OR
   },
 }
 ```
+
+![Screen Shot](https://user-images.githubusercontent.com/50715158/136180273-5d433e8d-e672-4f8c-836b-acfc49ba6772.png)
 
 ## Customization
 
