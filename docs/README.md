@@ -13,7 +13,7 @@ This is not intended to be used as a standalone app, this is dependency app for 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png)
+![Screen Shot](https://user-images.githubusercontent.com/50715158/136180273-5d433e8d-e672-4f8c-836b-acfc49ba6772.png)
 
 ## Configuration
 
