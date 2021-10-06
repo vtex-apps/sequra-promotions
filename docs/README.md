@@ -29,10 +29,10 @@ As this exports a list, you should use it with an app that consumes this type of
       "flex-layout.row#selling-price",
       "sku-selector",
       "flex-layout.row#buy-button",
-      "list-context.promotions-list#demo"
+      "list-context.sequra-promotions-list#demo"
     ]
   },
-  "list-context.promotions-list#demo": {
+  "list-context.sequra-promotions-list#demo": {
     "children": [
       "slider-layout#demo-promotions"
     ]
