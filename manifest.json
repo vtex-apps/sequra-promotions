@@ -1,0 +1,22 @@
+{
+  "vendor": "vtex",
+  "name": "sequra-promotions",
+  "version": "0.0.0",
+  "title": "SeQura Promotions",
+  "description": "List the promotions available for your SeQura payment",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.list-context": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.apps-graphql": "3.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

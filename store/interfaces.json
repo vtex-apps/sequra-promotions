@@ -1,0 +1,7 @@
+{
+  "list-context.sequra-promotions-list": {
+    "component": "Promotions",
+    "composition": "children",
+    "allowed": "*"
+  }
+}
