@@ -17,9 +17,33 @@ This is not intended to be used as a standalone app, this is dependency app for 
 
 ## Configuration
 
-As this exports a list, you should use it with an app that consumes this type of context. For i.e with `slider-layout`
+There're 2 ways of using this list:  
+
+- You can declare the default block `list-context.sequra-promotions-list` anywhere on your theme, and it will render all the content in an orderly fashion
 
 ```json
+{
+"flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#selling-price",
+      "sku-selector",
+      "flex-layout.row#buy-button",
+      "list-context.sequra-promotions-list"
+    ]
+  },
+}
+```
+
+OR
+
+- As this exports a list, you can use it with an app that consumes this type of context. For i.e with `slider-layout`
+
+```json
+{
 "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -47,6 +71,7 @@ As this exports a list, you should use it with an app that consumes this type of
       "infinite": false
     }
   },
+}
 ```
 
 ## Customization
