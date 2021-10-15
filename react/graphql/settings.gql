@@ -1,5 +1,5 @@
 query {
-  appSettings(app: "vtex.example-payment-auth-app", version: "0.x")
+  appSettings(app: "vtex.sequra-auth-app", version: "0.x")
     @context(provider: "vtex.apps-graphql") {
     message
   }

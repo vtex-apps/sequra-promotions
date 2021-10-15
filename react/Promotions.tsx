@@ -23,7 +23,7 @@ type AppSettings = {
   i1: boolean
   pp3: boolean
   sp1: boolean
-  testMode: boolean
+  production: boolean
 }
 
 function SinglePromo({ product, amount }: { product: string; amount: number }) {
@@ -114,11 +114,11 @@ const Wrapper = ({ children }: { children: any }) => {
       headScript.remove()
     }
 
-    const { merchant, assetKey, testMode } = appSettings
+    const { merchant, assetKey, production } = appSettings
 
     const script = document.createElement('script')
 
-    const sequraLibrary = testMode ? 'sandbox' : 'live'
+    const sequraLibrary = production ? 'live' : 'sandbox'
 
     const sequraConfigParams = {
       merchant,
