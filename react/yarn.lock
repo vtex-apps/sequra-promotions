@@ -4962,6 +4962,10 @@ verror@1.10.0:
   version "8.132.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.0/public/@types/vtex.render-runtime#a8076ea34824dd20785fd26692484a446c4aa52b"
 
+"vtex.sequra-promotions@https://sequrasanz--vtexeurope.myvtex.com/_v/private/typings/linked/v1/vtex.sequra-promotions@0.0.0+build1632738325/public/@types/vtex.sequra-promotions":
+  version "0.0.0"
+  resolved "https://sequrasanz--vtexeurope.myvtex.com/_v/private/typings/linked/v1/vtex.sequra-promotions@0.0.0+build1632738325/public/@types/vtex.sequra-promotions#48e9725903edcad452a612e81c91a43c228883f2"
+
 w3c-hr-time@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
