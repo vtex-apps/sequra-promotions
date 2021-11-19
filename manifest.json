@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "sequra-promotions",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "title": "SeQura Promotions",
   "description": "List the promotions available for your SeQura payment",
   "builders": {
@@ -18,5 +18,47 @@
     "smartcheckout"
   ],
   "policies": [],
+  "settingsSchema": {
+    "title": "SeQura Promotions",
+    "type": "object",
+    "required": [
+      "merchant",
+      "assetKey"
+    ],
+    "properties": {
+      "merchant": {
+        "type": "string",
+        "title": "Merchant",
+        "description": "Your merchant reference given by SeQura"
+      },
+      "assetKey": {
+        "type": "string",
+        "title": "Asset key",
+        "description": "Your asset key given by SeQura"
+      },
+      "i1": {
+        "type": "boolean",
+        "title": "Provide INVOICE payment ('i1')",
+        "description": "List of SeQura products that you want to include",
+        "default": false
+      },
+      "pp3": {
+        "type": "boolean",
+        "title": "Provide INSTALLMENT payment ('pp3')",
+        "default": false
+      },
+      "sp1": {
+        "type": "boolean",
+        "title": "Provide SPLIT payment ('sp1')",
+        "default": false
+      },
+      "production": {
+        "type": "boolean",
+        "title": "Production environment",
+        "description": "Toggle to choose between SeQura's live and sandbox environments",
+        "default": false
+      }
+    }
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
