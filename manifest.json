@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "sequra-promotions",
-  "version": "0.0.7",
+  "version": "0.0.12",
   "title": "SeQura Promotions",
   "description": "List the promotions available for your SeQura payment",
   "builders": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "vtex.list-context": "0.x",
     "vtex.product-context": "0.x",
-    "vtex.apps-graphql": "3.x"
+    "vtex.apps-graphql": "2.x"
   },
   "registries": ["smartcheckout"],
   "policies": [],

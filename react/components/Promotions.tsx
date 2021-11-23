@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react'
 import { useQuery } from 'react-apollo'
 import { canUseDOM } from 'vtex.render-runtime'
 
-import { PromotionsList } from './components/PromotionsList'
-import AppSettings from './graphql/settings.gql'
-import { buildSequraScript } from './utils/index.js'
+import { PromotionsList } from './PromotionsList'
+import AppSettings from '../graphql/settings.gql'
+import { buildSequraScript } from '../utils'
 
 declare global {
   interface Window {
@@ -24,6 +24,7 @@ const Promotions: FC<PromotionsProps> = ({ children }) => {
   const [appSettings, setAppSettings] = useState({} as AppSettings)
 
   const headScript = canUseDOM && document.getElementById('SeQura')
+
   const handleOnLoad = () => {
     setIsScriptLoaded(true)
   }
@@ -88,4 +89,4 @@ const Promotions: FC<PromotionsProps> = ({ children }) => {
   )
 }
 
-export default Promotions
+export { Promotions }
