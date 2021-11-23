@@ -1,6 +1,5 @@
 {
   "name": "sequra-promotions",
-  "version": "0.0.10",
   "scripts": {
     "test": "vtex-test-tools test"
   },
