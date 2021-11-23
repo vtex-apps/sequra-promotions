@@ -1,4 +1,4 @@
-query {
+query AppSettings {
   appSettings(app: "vtex.sequra-promotions", version: "0.x")
     @context(provider: "vtex.apps-graphql") {
     message

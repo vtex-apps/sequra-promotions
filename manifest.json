@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "sequra-promotions",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "title": "SeQura Promotions",
   "description": "List the promotions available for your SeQura payment",
   "builders": {
@@ -14,17 +14,12 @@
     "vtex.product-context": "0.x",
     "vtex.apps-graphql": "3.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "policies": [],
   "settingsSchema": {
     "title": "SeQura Promotions",
     "type": "object",
-    "required": [
-      "merchant",
-      "assetKey"
-    ],
+    "required": ["merchant", "assetKey"],
     "properties": {
       "merchant": {
         "type": "string",
