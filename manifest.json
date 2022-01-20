@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "sequra-promotions",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "title": "SeQura Promotions",
   "description": "List the promotions available for your SeQura payment",
   "builders": {

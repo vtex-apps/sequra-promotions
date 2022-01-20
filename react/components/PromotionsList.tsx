@@ -25,8 +25,10 @@ const PromotionsList: FC<PromotionsListProps> = ({
     return null
   }
 
+  const priceInCents = +(selectedPrice * 100).toFixed(0)
+
   const promotionsList = products.map((product: string) => (
-    <Promotion key={product} product={product} amount={selectedPrice} />
+    <Promotion key={product} product={product} amount={priceInCents} />
   ))
 
   const listContextValue = list.concat(promotionsList)
