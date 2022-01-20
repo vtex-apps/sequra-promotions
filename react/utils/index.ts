@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-export const buildSequraScript = (sequraConfigParams) => {
+export const buildSequraScript = (sequraConfigParams): string => {
   return (function (i, s, o, g, r, a, m) {
     i['SequraConfiguration'] = g
     i['SequraOnLoad'] = []

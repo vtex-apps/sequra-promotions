@@ -1,7 +1,5 @@
 {
   "list-context.sequra-promotions-list": {
-    "children": [
-      "list-context-renderer"
-    ]
+    "children": ["list-context-renderer"]
   }
 }
